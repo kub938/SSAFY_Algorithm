@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Main {
+public class DFS와BFS {
     public static int N;
     public static int M;
     public static int V;
