@@ -1,94 +1,84 @@
+package boj.silver.b1260;
+
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
 public class Main {
 
-    static class Tomato {
-        int x;
-        int y;
-        int day;
-
-        Tomato(int x, int y, int day) {
-            this.x = x;
-            this.y = y;
-            this.day = day;
-        }
-    }
-
     static int n;
     static int m;
+    static int startVertex;
 
-    static int[][] board;
-    static int[] dx = {-1, 0, 1, 0};
-    static int[] dy = {0, -1, 0, 1};
+    static boolean[][] graph;
+    static boolean[] visited;
+
+    static StringBuilder sb;
 
     public static void main(String[] args) {
         input();
-        System.out.println(bfs());
+
+        visited[startVertex] = true;
+        sb.append(startVertex + 1).append(" ");
+        dfs(startVertex);
+        sb.append("\n");
+
+        bfs();
+        System.out.println(sb);
     }
 
     private static void input() {
         Scanner scanner = new Scanner(System.in);
-        m = scanner.nextInt();
         n = scanner.nextInt();
-        board = new int[n][m];
+        m = scanner.nextInt();
+        startVertex = scanner.nextInt() - 1;
+
+        sb = new StringBuilder();
+
+        graph = new boolean[n][n];
+        visited = new boolean[n];
+
+        for (int i = 0; i < m; i++) {
+            int from = scanner.nextInt() - 1;
+            int to = scanner.nextInt() - 1;
+            graph[from][to] = true;
+            graph[to][from] = true;
+        }
+    }
+
+    private static void dfs(int vertex) {
+
         for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
-                board[i][j] = scanner.nextInt();
+            if (!visited[i] && graph[vertex][i]) {
+                sb.append(i + 1).append(" ");
+                visited[i] = true;
+                dfs(i);
             }
         }
     }
 
-    private static int bfs() {
+    private static void bfs() {
+        visited = new boolean[n];
 
-        Queue<Tomato> queue = new LinkedList<>();
+        sb.append(startVertex + 1).append(" ");
 
-        int count = 0;
-        int target = n * m;
-
-        for (int i = 0; i < n; i++) {
-            for (int j = 0; j < m; j++) {
-                if (board[i][j] == 1) {
-                    queue.add(new Tomato(i, j, 0));
-                    count++;
-                } else if(board[i][j] == -1) {
-                    target--;
-                }
-            }
-        }
-
-        if (count == target) {
-            return 0;
-        }
+        Queue<Integer> queue = new LinkedList<>();
+        queue.add(startVertex);
+        visited[startVertex] = true;
 
 
         while (!queue.isEmpty()) {
-            Tomato current = queue.poll();
-
-            int x = current.x;
-            int y = current.y;
-
-            for (int d = 0; d < 4; d++) {
-                int nextX = x + dx[d];
-                int nextY = y + dy[d];
-
-                if (range(nextX, nextY) &&  board[nextX][nextY] == 0) {
-                    queue.add(new Tomato(nextX, nextY, current.day + 1));
-                    board[nextX][nextY] = 1;
-                    count++;
+            int vertex = queue.poll();
+            for (int i = 0; i < n; i++) {
+                if (!visited[i] && graph[vertex][i]) {
+                    queue.add(i);
+                    visited[i] = true;
+                    sb.append(i + 1).append(" ");
                 }
             }
-
-            if (count == target) {
-                return current.day + 1;
-            }
-
         }
-        return -1;
+
+
     }
 
-    private static boolean range(int x, int y) {
-        return 0 <= x && x < n && 0 <= y && y < m;
-    }
 }
