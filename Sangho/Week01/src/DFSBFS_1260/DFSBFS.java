@@ -1,6 +1,8 @@
+package DFSBFS_1260;
+
 import java.util.*;
 
-public class DFS와BFS {
+public class DFSBFS {
     public static int N;
     public static int M;
     public static int V;
