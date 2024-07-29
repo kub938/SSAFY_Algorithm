@@ -114,7 +114,8 @@ git commit -m "이름 / 날짜 / [플랫폼_문제이름_문제번호] / 실행�
 
 | Index | 기간 | 알고리즘 분류 | 문제 링크 |
 | :---: | :--------------------: | :----------: | :----------: |
-| 1주차 | 2024.07.25 ~ 2024.08.25 | 삼성 SW 역랑테스트 대비 | 1. [BOJ_토마토](https://www.acmicpc.net/problem/7576)<br>2. [BOJ_DFS와BFS]  (https://www.acmicpc.net/problem/1260)<br>💻
+| 1주차 | 2024.07.25 ~ 2024.08.25 | 삼성 SW 역랑테스트 대비 | 1. [BOJ_토마토](https://www.acmicpc.net/problem/7576)<br>
+2. [BOJ_DFS와BFS](https://www.acmicpc.net/problem/1260)💻<br>
 
 
 ## 진행 상황
