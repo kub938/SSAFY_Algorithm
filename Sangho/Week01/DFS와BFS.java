@@ -1,8 +1,6 @@
-package DFSBFS_1260;
-
 import java.util.*;
 
-public class DFSBFS {
+public class Main {
     public static int N;
     public static int M;
     public static int V;

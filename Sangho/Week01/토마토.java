@@ -1,10 +1,8 @@
-package tomato_7576;
-
 import java.util.LinkedList;
 import java.util.Queue;
 import java.util.Scanner;
 
-public class Tomato {
+public class Main {
     public static int N;
     public static int M;
     public static int answer;
