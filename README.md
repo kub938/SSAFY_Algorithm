@@ -26,13 +26,13 @@
 
 ## 🤖 스터디 멤버
 <table>
- <tr>
-    <td align="center"><a href="https://github.com/sangholee235"><img src="https://avatars.githubusercontent.com/u/158041455?s=400&u=fc13ed6012858317ec24822efc41b8b022810d7b&v=4" width="130px;" alt=""></a></td>
-    <td align="center"><a href="https://github.com/leafeafeaf"><img src="https://avatars.githubusercontent.com/u/66377159?v=4" width="130px;" alt=""></a></td>
-    <td align="center"><a href="https://github.com/sangholee235"><img src="https://avatars.githubusercontent.com/u/93969720?v=4" width="130px;" alt=""></a></td>
-    <td align="center"><a href="https://github.com/sangholee235"><img src="https://avatars.githubusercontent.com/u/96942183?v=4" width="130px;" alt=""></a></td>
-    <td align="center"><a href="https://github.com/sangholee235"><img src="https://avatars.githubusercontent.com/u/172460819?v=4" width="130px;" alt=""></a></td>
-    <td align="center"><a href="https://github.com/sangholee235"><img src="https://avatars.githubusercontent.com/u/98267078?v=4" width="130px;" alt=""></a></td>
+ <tr>https://avatars.githubusercontent.com/u/121619411?v=4
+    <td align="center"><a href="https://github.com/sangholee235"><img src="https://avatars.githubusercontent.com/u/121619411?v=4" width="130px;" alt=""></a></td>
+    <td align="center"><a href="https://github.com/leafeafeaf"><img src="https://avatars.githubusercontent.com/u/121619411?v=4" width="130px;" alt=""></a></td>
+    <td align="center"><a href="https://github.com/sangholee235"><img src="https://avatars.githubusercontent.com/u/121619411?v=4" width="130px;" alt=""></a></td>
+    <td align="center"><a href="https://github.com/sangholee235"><img src="https://avatars.githubusercontent.com/u/121619411?v=4" width="130px;" alt=""></a></td>
+    <td align="center"><a href="https://github.com/sangholee235"><img src="https://avatars.githubusercontent.com/u/121619411?v=4" width="130px;" alt=""></a></td>
+    <td align="center"><a href="https://github.com/sangholee235"><img src="https://avatars.githubusercontent.com/u/121619411?v=4" width="130px;" alt=""></a></td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/sangholee235"><b>sangholee235</b></a></td>
