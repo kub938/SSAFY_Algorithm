@@ -5,7 +5,7 @@ import java.util.*;
 
 public class Main {
 
-    //토마토가 익을때까지의 날짜를 저장한 배열
+    //토마토가 익음 정보를 저장하는 배열
     static int[][] arr;
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
