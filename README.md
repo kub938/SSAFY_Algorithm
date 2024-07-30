@@ -30,7 +30,7 @@
     <td align="center"><a href="https://github.com/sangholee235"><img src="https://avatars.githubusercontent.com/u/121619411?v=4" width="130px;" alt=""></a></td>
     <td align="center"><a href="https://github.com/jongchan0109"><img src="https://github.com/user-attachments/assets/718ccfd0-3ac9-4171-a874-648810262f23" width="130px;" alt=""></a></td>
     <td align="center"><a href="https://github.com/dwshin-dev"><img src="https://avatars.githubusercontent.com/u/122520434?v=4" width="130px;" alt=""></a></td>
-    <td align="center"><a href="https://github.com/sangholee235"><img src="https://avatars.githubusercontent.com/u/121619411?v=4" width="130px;" alt=""></a></td>
+    <td align="center"><a href="https://github.com/sangholee235"><img src="https://avatars.githubusercontent.com/u/70201753?s=400&v=4" width="130px;" alt=""></a></td>
     <td align="center"><a href="https://github.com/sangholee235"><img src="https://avatars.githubusercontent.com/u/121619411?v=4" width="130px;" alt=""></a></td>
     <td align="center"><a href="https://github.com/sangholee235"><img src="https://avatars.githubusercontent.com/u/121619411?v=4" width="130px;" alt=""></a></td>
     <td align="center"><a href="https://github.com/sangholee235"><img src="https://avatars.githubusercontent.com/u/121619411?v=4" width="130px;" alt=""></a></td>
@@ -39,7 +39,7 @@
     <td align="center"><a href="https://github.com/sangholee235"><b>sangholee235</b></a></td>
     <td align="center"><a href="https://github.com/jongchan0109"><b>jongchan0109</b></a></td>
     <td align="center"><a href="https://github.com/dwshin-dev"><b>dwshin-dev</b></a></td>
-    <td align="center"><a href="https://github.com/sangholee235"><b>sangholee235</b></a></td>
+    <td align="center"><a href="https://github.com/leafeafeaf"><b>leafeafeaf</b></a></td>
     <td align="center"><a href="https://github.com/sangholee235"><b>sangholee235</b></a></td>
     <td align="center"><a href="https://github.com/sangholee235"><b>sangholee235</b></a></td>
     <td align="center"><a href="https://github.com/sangholee235"><b>sangholee235</b></a></td>
