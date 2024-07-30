@@ -30,7 +30,7 @@
     <td align="center"><a href="https://github.com/sangholee235"><img src="https://avatars.githubusercontent.com/u/121619411?v=4" width="130px;" alt=""></a></td>
     <td align="center"><a href="https://github.com/jongchan0109"><img src="https://github.com/user-attachments/assets/718ccfd0-3ac9-4171-a874-648810262f23" width="130px;" alt=""></a></td>
     <td align="center"><a href="https://github.com/dwshin-dev"><img src="https://avatars.githubusercontent.com/u/122520434?v=4" width="130px;" alt=""></a></td>
-    <td align="center"><a href="https://github.com/sangholee235"><img src="https://avatars.githubusercontent.com/u/70201753?s=400&v=4" width="130px;" alt=""></a></td>
+    <td align="center"><a href="https://github.com/leafeafeaf"><img src="https://avatars.githubusercontent.com/u/70201753?s=400&v=4" width="130px;" alt=""></a></td>
     <td align="center"><a href="https://github.com/sangholee235"><img src="https://avatars.githubusercontent.com/u/121619411?v=4" width="130px;" alt=""></a></td>
     <td align="center"><a href="https://github.com/sangholee235"><img src="https://avatars.githubusercontent.com/u/121619411?v=4" width="130px;" alt=""></a></td>
     <td align="center"><a href="https://github.com/sangholee235"><img src="https://avatars.githubusercontent.com/u/121619411?v=4" width="130px;" alt=""></a></td>
@@ -130,7 +130,7 @@ git commit -m "이름 / 날짜 / [플랫폼_문제이름_문제번호] / 실행�
 
 |   주차    |      날짜       | 이상호 | 김종찬 | 상승규 | 신동운 | 편민준 | 김성민| 김윤배 
 |:-------:|:-------------:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
-| week_01 | 07.25 ~ 08.01 |   ✅   |   ✅    |      |       |       |      |      |
+| week_01 | 07.25 ~ 08.01 |   ✅   |   ✅    |      |       |       |    ✅   |      |
 | week_02 | 08.02 ~ 08.09 |      |       |     |      |       |      |       |
 
 
