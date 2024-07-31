@@ -33,7 +33,7 @@
     <td align="center"><a href="https://github.com/leafeafeaf"><img src="https://avatars.githubusercontent.com/u/70201753?s=400&v=4" width="130px;" alt=""></a></td>
     <td align="center"><img src="https://github.com/user-attachments/assets/18b11789-8d5b-4e16-9c4a-a026b8d19673" width="100%"; alt=""></td>
     <td align="center"><a href="https://github.com/sangholee235"><img src="https://avatars.githubusercontent.com/u/156090466?s=400&v=4" width="130px;" alt=""></a></td>
-    <td align="center"><a href="https://github.com/sangholee235"><img src="https://avatars.githubusercontent.com/u/121619411?v=4" width="130px;" alt=""></a></td>
+    <td align="center"><a href="https://github.com/sangholee235"><img src="" width="130px;" alt=""></a></td>
   </tr>
   <tr>
     <td align="center"><a href="https://github.com/sangholee235"><b>sangholee235</b></a></td>
@@ -42,7 +42,7 @@
     <td align="center"><a href="https://github.com/leafeafeaf"><b>leafeafeaf</b></a></td>
     <td align="center"><a href="https://github.com/PyeonMinjun"><b>편민준</b></a></td>
     <td align="center"><a href="https://github.com/UnrequiredOne"><b>UnrequiredOne</b></a></td>
-    <td align="center"><a href="https://github.com/sangholee235"><b>sangholee235</b></a></td>
+    <td align="center"><a href="https://github.com/kub938"><b>kub938</b></a></td>
   </tr>
   <tr> 
     <td align="center"><img src="https://img.shields.io/badge/Java-007396.svg?&style=for-the-badge&logo=Java&logoColor=white"></td>
