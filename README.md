@@ -20,6 +20,7 @@
   <tr>
     <td>언어</td>
     <td><img src="https://img.shields.io/badge/Java-007396.svg?&style=for-the-badge&logo=Java&logoColor=white"> 
+      <img src = "https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white">
     </td>
   </tr>
 </table>
@@ -31,7 +32,7 @@
     <td align="center"><a href="https://github.com/jongchan0109"><img src="https://github.com/user-attachments/assets/718ccfd0-3ac9-4171-a874-648810262f23" width="130px;" alt=""></a></td>
     <td align="center"><a href="https://github.com/dwshin-dev"><img src="https://avatars.githubusercontent.com/u/122520434?v=4" width="130px;" alt=""></a></td>
     <td align="center"><a href="https://github.com/leafeafeaf"><img src="https://avatars.githubusercontent.com/u/70201753?s=400&v=4" width="130px;" alt=""></a></td>
-    <td align="center"><img src="https://github.com/user-attachments/assets/18b11789-8d5b-4e16-9c4a-a026b8d19673" width="100%"; alt=""></td>
+    <td align="center"><img src="https://github.com/user-attachments/assets/18b11789-8d5b-4e16-9c4a-a026b8d19673" width="200px"; alt=""></td>
     <td align="center"><a href="https://github.com/sangholee235"><img src="https://avatars.githubusercontent.com/u/156090466?s=400&v=4" width="130px;" alt=""></a></td>
     <td align="center"><a href="https://github.com/kub938"><img src="https://avatars.githubusercontent.com/u/95129943?v=4" width="130px;" alt=""></a></td>
   </tr>
@@ -49,7 +50,7 @@
     <td align="center"><img src="https://img.shields.io/badge/Java-007396.svg?&style=for-the-badge&logo=Java&logoColor=white"></td>
     <td align="center"><img src="https://img.shields.io/badge/Java-007396.svg?&style=for-the-badge&logo=Java&logoColor=white"></td>
     <td align="center"><img src="https://img.shields.io/badge/Java-007396.svg?&style=for-the-badge&logo=Java&logoColor=white"></td>
-    <td align="center"><img src="https://img.shields.io/badge/Java-007396.svg?&style=for-the-badge&logo=Java&logoColor=white"></td>
+    <td align="center"><img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white"></td>
     <td align="center"><img src="https://img.shields.io/badge/Java-007396.svg?&style=for-the-badge&logo=Java&logoColor=white"></td>
     <td align="center"><img src="https://img.shields.io/badge/Java-007396.svg?&style=for-the-badge&logo=Java&logoColor=white"></td>
   </tr> 
