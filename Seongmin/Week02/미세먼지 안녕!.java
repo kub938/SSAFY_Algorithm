@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 //0806 15:15 start
-//0806  16:30 end
+//0806 16:30 end
 
 /*
 git commit -m "김성민 / 240806 / [BOJ_미세먼지 안녕!_17144] / 444ms "
