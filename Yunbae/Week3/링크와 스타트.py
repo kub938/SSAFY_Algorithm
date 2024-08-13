@@ -1,5 +1,6 @@
 import sys
 from itertools import combinations
+
 n = int(input())
 board = [list(map(int,input().split())) for _ in range(n)]
 people = [i for i in range(n)]
@@ -27,3 +28,4 @@ for k in range(1,n//2+1):
         min_stat = min(min_stat,stat_diff)
 
 print(min_stat)
+
