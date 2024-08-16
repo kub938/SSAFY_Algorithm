@@ -7,7 +7,7 @@ import java.util.StringTokenizer;
 //0816 1050 end
 
 /*
-git commit -m "김성민 / 240816 / [SWEA_보호 필름_2112] / 608ms"
+git commit -m "김성민 / 240816 / [SWEA_보호 필름_2112] / 627ms"
 풀이 사항
 풀이 일자: 2024.08.16
 풀이 시간: 50분
