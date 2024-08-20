@@ -31,7 +31,7 @@ public class Main {
 			}
 		}
 		
-		// 2. W,B 리스트 만들기
+		// 2. W,B 리스트 만들기a
 		W = new ArrayList<>();
 		B = new ArrayList<>();
 		
