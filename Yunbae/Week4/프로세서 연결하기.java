@@ -22,20 +22,22 @@ public class SWProcessor{
 
         for (int t = 1; t < T+1; t++) {
         n = sc.nextInt();
+        minLine = 0;
+        line = 0;
+        maxCore = 0;
+
         coreList = new ArrayList<>();
         board = new int[n][n];
         for(int i=0; i<n;i++){                             //board에서 좌표 코어좌표 추출
             for(int j=0;j<n;j++){
                 board[i][j] = sc.nextInt();
-                if(i==0 || i==n-1 || j==0 || j==n-1){
+                if(i==0 || i==n-1 || j==0 || j==n-1 ){
                     continue;
                 }
-                coreList.add(new int[] {i,j});
+                if(board[i][j]==1){
+                    coreList.add(new int[] {i,j});
+                }
             }
-        }
-
-        for (int i = 0; i < n; i++) {
-            System.out.println(Arrays.toString(coreList.get(i)));
         }
 
         dfs(0,0,0);
@@ -61,14 +63,17 @@ public class SWProcessor{
             return;
         }
         for (int i = 0; i < coreList.size(); i++) {
-            int cnt = 0;
             int x = coreList.get(i)[0];
             int y = coreList.get(i)[1];
 
             for (int j = 0; j < 4; j++) {
-                int nx = x + dx[i];
-                int ny = y + dy[i];
+                int nx = x;
+                int ny = y;
+                int cnt = 0;
+
                 while (true) {
+                    nx += dx[i];
+                    ny += dy[i];
                     if (inRange(nx, ny)) {
                         if (board[nx][ny] == 1) {
                             cnt = 0;
@@ -80,10 +85,13 @@ public class SWProcessor{
                         break;
                     }
                 }
+
                 if (cnt == 0) {
                     dfs(depth+1, coreCnt,lineLength);
                 } else if (cnt != 0) {
                     dfs(depth + 1, coreCnt + 1, lineLength + cnt);
+                    
+                    
                     for (int k = 0; k < cnt; k++) {
                         x +=dx[i];
                         y +=dy[i];
