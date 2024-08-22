@@ -119,6 +119,7 @@ git commit -m "이름 / 날짜 / [플랫폼_문제이름_문제번호] / 실행�
 | 2주차 | 2024.08.02 ~ 2024.08.08 | 삼성 SW 역량테스트 대비 | 1. [BOJ_주사위 굴리기](https://www.acmicpc.net/problem/14499)<br> 2. [BOJ_퇴사](https://www.acmicpc.net/problem/14501)<br> 3. [BOJ_치킨배달](https://www.acmicpc.net/problem/15686) |
 | 3주차 | 2024.08.10 ~ 2024.08.17 | 삼성 SW 역량테스트 대비 | 1. [BOJ_링크와 스타트](https://www.acmicpc.net/problem/15661)<br> 2. [BOJ_부등호](https://www.acmicpc.net/problem/2529)<br> 3. [BOJ_단지번호붙이기](https://www.acmicpc.net/problem/2667) |
 | 4주차 | 2024.08.16 ~ 2024.08.22 | 삼성 SW 역량테스트 대비 | 1. [SWEA_보호 필름](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V1SYKAaUDFAWu)<br> 2. [SWEA_프로세서 연결하기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4suNtaXFEDFAUf)<br> 3. [BOJ_전쟁 - 전투](https://www.acmicpc.net/problem/1303) |
+| 5주차 | 2024.08.16 ~ 2024.08.22 | 삼성 SW 역량테스트 대비 | 1.[BOJ 감시](https://www.acmicpc.net/problem/15683)<br> 2.2. [BOJ 소문난칠공주](https://www.acmicpc.net/problem/1941)<br> 3. 3.[BOJ PuyoPuyo](https://www.acmicpc.net/problem/11559) |
 
 
 ## 진행 상황
@@ -136,7 +137,7 @@ git commit -m "이름 / 날짜 / [플랫폼_문제이름_문제번호] / 실행�
 | week_01 | 07.25 ~ 08.01 |   ✅   |   ✅    |   ✅   |   ✅   |   ✅    |    ✅   |   ✅   |
 | week_02 | 08.02 ~ 08.09 |   ✅   |   ✅    |   ✅   |   ✅   |   ✅    |    ✅   |   ✅   |
 | week_03 | 08.10 ~ 08.17 |   ✅   |   ✅    |   ✅   |   ✅   |  ✅     |    ✅   |   ✅   |
-| week_04 | 08.16 ~ 08.22 |   ✅   |   ✅    |   ✅   |   ✅   |       |    ✅   |      |
+| week_04 | 08.16 ~ 08.22 |   ✅   |   ✅    |   ✅   |   ✅   |  🔺     |    ✅   |      |
 
 <br/>
 
