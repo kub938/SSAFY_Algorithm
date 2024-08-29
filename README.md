@@ -120,7 +120,7 @@ git commit -m "이름 / 날짜 / [플랫폼_문제이름_문제번호] / 실행�
 | 3주차 | 2024.08.10 ~ 2024.08.17 | 삼성 SW 역량테스트 대비 | 1. [BOJ_링크와 스타트](https://www.acmicpc.net/problem/15661)<br> 2. [BOJ_부등호](https://www.acmicpc.net/problem/2529)<br> 3. [BOJ_단지번호붙이기](https://www.acmicpc.net/problem/2667) |
 | 4주차 | 2024.08.16 ~ 2024.08.22 | 삼성 SW 역량테스트 대비 | 1. [SWEA_보호 필름](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V1SYKAaUDFAWu)<br> 2. [SWEA_프로세서 연결하기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4suNtaXFEDFAUf)<br> 3. [BOJ_전쟁 - 전투](https://www.acmicpc.net/problem/1303) |
 | 5주차 | 2024.08.22 ~ 2024.08.29 | 삼성 SW 역량테스트 대비 | 1.[BOJ 감시](https://www.acmicpc.net/problem/15683)<br> 2. [BOJ 소문난칠공주](https://www.acmicpc.net/problem/1941)<br> 3. [BOJ PuyoPuyo](https://www.acmicpc.net/problem/11559) |
-| 5주차 | 2024.08.29 ~ 2024.09.05 | 삼성 SW 역량테스트 대비 | 1.[BOJ 정육면체 전개도](https://www.acmicpc.net/problem/1917)<br> 2. [BOJ 아기 상어](https://www.acmicpc.net/problem/16236)<br> 3. [BOJ 큐빙](https://www.acmicpc.net/problem/5373) |
+| 6주차 | 2024.08.29 ~ 2024.09.05 | 삼성 SW 역량테스트 대비 | 1.[BOJ 정육면체 전개도](https://www.acmicpc.net/problem/1917)<br> 2. [BOJ 아기 상어](https://www.acmicpc.net/problem/16236)<br> 3. [BOJ 큐빙](https://www.acmicpc.net/problem/5373) |
 
 ## 진행 상황
 
