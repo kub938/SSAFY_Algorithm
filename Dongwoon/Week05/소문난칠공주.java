@@ -12,7 +12,7 @@ public class Main {
 	public static int[] dy = { 0, 1, 0, -1 };
 
 	public static void main(String[] args) throws IOException {
-		// 1. map 입력받기
+		// 1. map 입력받기.
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		for (int i = 0; i < N; i++) {
 			String str = br.readLine();
