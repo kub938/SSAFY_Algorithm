@@ -42,7 +42,7 @@ public class Main {
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st;
-		// 1. 입력받기 N
+		// 1. 입력받기 N.
 		N = Integer.parseInt(br.readLine());
 		// 1-1. map 설정, shark, fish
 		map = new int[N][N];
