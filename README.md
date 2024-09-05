@@ -121,6 +121,7 @@ git commit -m "이름 / 날짜 / [플랫폼_문제이름_문제번호] / 실행�
 | 4주차 | 2024.08.16 ~ 2024.08.22 | 삼성 SW 역량테스트 대비 | 1. [SWEA_보호 필름](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV5V1SYKAaUDFAWu)<br> 2. [SWEA_프로세서 연결하기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV4suNtaXFEDFAUf)<br> 3. [BOJ_전쟁 - 전투](https://www.acmicpc.net/problem/1303) |
 | 5주차 | 2024.08.22 ~ 2024.08.29 | 삼성 SW 역량테스트 대비 | 1.[BOJ 감시](https://www.acmicpc.net/problem/15683)<br> 2. [BOJ 소문난칠공주](https://www.acmicpc.net/problem/1941)<br> 3. [BOJ PuyoPuyo](https://www.acmicpc.net/problem/11559) |
 | 6주차 | 2024.08.29 ~ 2024.09.05 | 삼성 SW 역량테스트 대비 | 1.[BOJ 정육면체 전개도](https://www.acmicpc.net/problem/1917)<br> 2. [BOJ 아기 상어](https://www.acmicpc.net/problem/16236)<br> 3. [BOJ 종이접기](https://www.acmicpc.net/problem/20187) <br> 4. [도전문제][BOJ 큐빙](https://www.acmicpc.net/problem/5373)|
+| 7주차 | 2024.09.05 ~ 2024.09.12 | 삼성 SW 역량테스트 대비 | 1.[BOJ 색종이 붙이기](https://www.acmicpc.net/problem/17136)<br> 2. [SWEA 벽돌 깨기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRQm6qfL0DFAUo&categoryId=AWXRQm6qfL0DFAUo&categoryType=CODE&problemTitle=%EB%AA%A8%EC%9D%98&orderBy=SUBMIT_COUNT&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1)<br> 3. [SWEA 핀볼](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRF8s6ezEDFAUo&categoryId=AWXRF8s6ezEDFAUo&categoryType=CODE&problemTitle=%EB%AA%A8%EC%9D%98&orderBy=SUBMIT_COUNT&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1)|
 
 ## 진행 상황
 
@@ -139,7 +140,7 @@ git commit -m "이름 / 날짜 / [플랫폼_문제이름_문제번호] / 실행�
 | week_03 | 08.10 ~ 08.17 |   ✅   |   ✅    |   ✅   |   ✅   |   ✅    |    ✅   |   ✅   |
 | week_04 | 08.18 ~ 08.22 |   ✅   |   ✅    |   ✅   |   ✅   |   🔺    |    ✅   |   🔺   |
 | week_05 | 08.23 ~ 08.29 |   ✅   |   ✅    |   ✅   |   ✅   |   🔺    |    ✅   |   ✅   |
-| week_06 | 08.29 ~ 09.05 |   🔺   |   ✅    |      |   ✅   |       |       |   🔺   |
+| week_06 | 08.29 ~ 09.05 |   🔺   |   ✅    |   ✅    |   ✅   |       |       |   🔺   |
 <br/>
 
 해당 README는 다음 레포지토리를 참고해서 제작하였습니다.
