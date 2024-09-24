@@ -37,5 +37,4 @@ for i in range(M):
         union(a, b)
         answer += c
         max_cost = max(max_cost, c)
-
 print(answer - max_cost)
