@@ -123,7 +123,8 @@ git commit -m "이름 / 날짜 / [플랫폼_문제이름_문제번호] / 실행�
 | 6주차 | 2024.08.29 ~ 2024.09.05 | 삼성 SW 역량테스트 대비 | 1.[BOJ 정육면체 전개도](https://www.acmicpc.net/problem/1917)<br> 2. [BOJ 아기 상어](https://www.acmicpc.net/problem/16236)<br> 3. [BOJ 종이접기](https://www.acmicpc.net/problem/20187) <br> 4. [도전문제][BOJ 큐빙](https://www.acmicpc.net/problem/5373)|
 | 7주차 | 2024.09.05 ~ 2024.09.12 | 삼성 SW 역량테스트 대비 | 1.[BOJ 색종이 붙이기](https://www.acmicpc.net/problem/17136)<br> 2. [SWEA 벽돌 깨기](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRQm6qfL0DFAUo&categoryId=AWXRQm6qfL0DFAUo&categoryType=CODE&problemTitle=%EB%AA%A8%EC%9D%98&orderBy=SUBMIT_COUNT&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1)<br> 3. [SWEA 핀볼](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AWXRF8s6ezEDFAUo&categoryId=AWXRF8s6ezEDFAUo&categoryType=CODE&problemTitle=%EB%AA%A8%EC%9D%98&orderBy=SUBMIT_COUNT&selectCodeLang=ALL&select-1=&pageSize=10&pageIndex=1)|
 | 8주차 | 2024.09.19 ~ 2024.09.26 | 삼성 SW 역량테스트 대비 | 1.[SWEA 보급로](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV15QRX6APsCFAYD)<br> 2. [BOJ 도시분할계획](https://www.acmicpc.net/problem/1647)<br> 3. [BOJ 학교탐방하기](https://www.acmicpc.net/problem/13418) |
-| 9주차 | 2024.09.26 ~ 2024.09.3 | 삼성 SW 역량테스트 대비 | 1.[BOJ 숨바꼭질 4](https://www.acmicpc.net/problem/13913)<br> 2. [BOJ 펠린드롬?](https://www.acmicpc.net/problem/10942)<br> 3. [BOJ 탑보기](https://www.acmicpc.net/problem/22866) |
+| 9주차 | 2024.09.26 ~ 2024.10.03 | 삼성 SW 역량테스트 대비 | 1.[BOJ 숨바꼭질 4](https://www.acmicpc.net/problem/13913)<br> 2. [BOJ 펠린드롬?](https://www.acmicpc.net/problem/10942)<br> 3. [BOJ 탑보기](https://www.acmicpc.net/problem/22866) |
+| 10주차 | 2024.10.03 ~ 2024.10.10 | 삼성 SW 역량테스트 대비 | 1.[BOJ 시험 감독](https://www.acmicpc.net/problem/13458)<br> 2. [BOJ 로봇 청소기](https://www.acmicpc.net/problem/14503)<br> 3. [BOJ 낚시왕](https://www.acmicpc.net/problem/17143) |
 
 ## 진행 상황
 
@@ -145,7 +146,8 @@ git commit -m "이름 / 날짜 / [플랫폼_문제이름_문제번호] / 실행�
 | week_06 | 08.29 ~ 09.05 |   ✅   |   ✅    |   ✅   |   ✅   |   ✅    |    ✅   |   🔺   |
 | week_07 | 09.06 ~ 09.12 |   ✅   |   ✅    |   ✅   |   ✅   |   🔺    |   ✅    |    🔺  |
 | week_08 | 09.19 ~ 09.26 |   ✅   |   ✅    |   ✅   |   ✅   |       |   ✅    |   ✅   |
-| week_09 | 09.26 ~ 10.03 |      |   ✅    |      |      |       |       |      |
+| week_09 | 09.26 ~ 10.03 |   ✅   |   ✅    |      |   ✅   |       |       |      |
+| week_10 | 10.03 ~ 10.10 |      |       |      |      |       |       |      |
 
 <br/>
 
