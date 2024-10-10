@@ -125,6 +125,7 @@ git commit -m "이름 / 날짜 / [플랫폼_문제이름_문제번호] / 실행�
 | 8주차 | 2024.09.19 ~ 2024.09.26 | 삼성 SW 역량테스트 대비 | 1.[SWEA 보급로](https://swexpertacademy.com/main/code/problem/problemDetail.do?contestProbId=AV15QRX6APsCFAYD)<br> 2. [BOJ 도시분할계획](https://www.acmicpc.net/problem/1647)<br> 3. [BOJ 학교탐방하기](https://www.acmicpc.net/problem/13418) |
 | 9주차 | 2024.09.26 ~ 2024.10.03 | 삼성 SW 역량테스트 대비 | 1.[BOJ 숨바꼭질 4](https://www.acmicpc.net/problem/13913)<br> 2. [BOJ 펠린드롬?](https://www.acmicpc.net/problem/10942)<br> 3. [BOJ 탑보기](https://www.acmicpc.net/problem/22866) |
 | 10주차 | 2024.10.03 ~ 2024.10.10 | 삼성 SW 역량테스트 대비 | 1.[BOJ 시험 감독](https://www.acmicpc.net/problem/13458)<br> 2. [BOJ 로봇 청소기](https://www.acmicpc.net/problem/14503)<br> 3. [BOJ 낚시왕](https://www.acmicpc.net/problem/17143) |
+| 11주차 | 2024.10.11 ~ 2024.10.17 | 삼성 SW 역량테스트 대비 | 1.[BOJ 2048 (Easy)](https://www.acmicpc.net/problem/12100)<br> 2. [BOJ 미확인 도착지](https://www.acmicpc.net/problem/9370)<br> 3. [BOJ 문자열 폭발](https://www.acmicpc.net/problem/9935) |
 
 ## 진행 상황
 
