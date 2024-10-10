@@ -1,104 +1,76 @@
-
-
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.StringTokenizer;
 
 class Shark {
-    int r, c, speed, dir, size;
+    int speed, dir, size;
 
-    public Shark(int r, int c, int speed, int dir, int size) {
-        this.r = r;
-        this.c = c;
+    public Shark(int speed, int dir, int size) {
         this.speed = speed;
         this.dir = dir;
         this.size = size;
-    }
-
-    @Override
-    public String toString() {
-        return "Shark{" +
-                "r=" + r +
-                ", c=" + c +
-                ", speed=" + speed +
-                ", dir=" + dir +
-                ", size=" + size +
-                '}';
     }
 }
 
 public class Main {
     static int row, col, m, score, kingPos;
     static int[][] delta = {{0, 0}, {-1, 0}, {1, 0}, {0, 1}, {0, -1}};
-    static ArrayList<Shark> sList = new ArrayList<>();
+    static ArrayList<int[]> sList = new ArrayList<>();
+    static Shark[][] map;
 
     public static void fishing() {
         kingPos += 1;
-        ArrayList<Shark> fList = new ArrayList<>();
-
-        for (int i = 0; i < sList.size(); i++) {         //잡을수 있는 상어 체크
-            Shark target = sList.get(i);
-            if (kingPos == target.c) {
-                fList.add(target);
+        for (int i = 0; i < row; i++) {
+            if (map[i][kingPos] != null) {
+                score += map[i][kingPos].size;
+                map[i][kingPos] = null;
+                return;
             }
         }
-
-        if (fList.isEmpty()) return;                    //잡을 수 있는게 없으면 탈출
-
-        Shark nearShark = fList.get(0);
-        for (int i = 0; i < fList.size(); i++) {  //그중 젤 위에꺼 잡음
-            if (nearShark.r > fList.get(i).r) {
-                nearShark = fList.get(i);
-            }
-        }
-
-        score += nearShark.size;
-        sList.remove(nearShark);
     }
-
+    
     public static void moveShark() {
-        for (int i = 0; i < sList.size(); i++) {
-            Shark a = sList.get(i);
-            for (int j = 0; j < a.speed; j++) {
-                if (a.dir == 1 || a.dir == 2) {  //상 하 일때
-                    if (a.r == 1 && a.dir == 1 || a.r == row && a.dir == 2) {
-                        a.dir = a.dir == 1 ? 2 : 1;
+        Shark[][] moveShark = new Shark[row][col];
+        
+        for (int r = 0; r < row; r++) {
+            for (int c = 0; c < col; c++) {
+                int nr = r;
+                int nc = c;
+                if (map[r][c] != null) {
+                    Shark a = map[r][c];
+                    for (int k = 0; k < a.speed; k++) {
+                        if (a.dir == 1 || a.dir == 2) {  //상 하 일때
+                            if (nr == 0 && a.dir == 1 || nr == row - 1 && a.dir == 2) {
+                                a.dir = a.dir == 1 ? 2 : 1;
+                            }
+                            nr = nr + delta[a.dir][0];
+                        } else {          //좌, 우 일때
+                            if (nc == 0 && a.dir == 4 || nc == col - 1 && a.dir == 3) {
+                                a.dir = a.dir == 3 ? 4 : 3;
+                            }
+                            nc = nc + delta[a.dir][1];
+                        }
                     }
-                    a.r = a.r + delta[a.dir][0];
-                } else {          //좌, 우 일때
-
-                    if (a.c == 1 && a.dir == 4 || a.c == col && a.dir == 3) {
-                        a.dir = a.dir == 3 ? 4 : 3;
-                    }
-                    a.c = a.c + delta[a.dir][1];
-                }
-            }
-        }
-    }
-
-    public static void samePos() {        //같은위치 찾고 먹음
-        ArrayList<Shark> arr = new ArrayList<>();
-
-        for (int i = 0; i < sList.size() - 1; i++) {                //10000 * 10000 
-            for (int j = i+1; j < sList.size(); j++) {
-                Shark a = sList.get(i);
-                Shark b = sList.get(j);
-                if (a.r == b.r && a.c == b.c) { //같은 좌표면
-                    if (a.size > b.size) {
-                        arr.add(b);
+                    
+                    if (moveShark[nr][nc] != null) {
+                        if (a.size > moveShark[nr][nc].size) {
+                            moveShark[nr][nc] = a;
+                        }
                     } else {
-                        arr.add(a);
+                        moveShark[nr][nc] = a;
                     }
+
                 }
+
             }
         }
-        for (Shark shark : arr) {
-            sList.remove(shark);
-        }
+        map = moveShark;
+
     }
 
     public static void main(String[] args) throws IOException {
@@ -107,6 +79,7 @@ public class Main {
         row = Integer.parseInt(st.nextToken());
         col = Integer.parseInt(st.nextToken());
         m = Integer.parseInt(st.nextToken());
+        map = new Shark[row][col];
 
         for (int i = 0; i < m; i++) {
             st = new StringTokenizer(br.readLine());
@@ -115,15 +88,14 @@ public class Main {
             int speed = Integer.parseInt(st.nextToken());   //속도
             int dir = Integer.parseInt(st.nextToken());   //이동 방향
             int size = Integer.parseInt(st.nextToken());   //크기  -> 크기가
-            Shark shark = new Shark(r, c, speed, dir, size);
-            sList.add(shark);
+            Shark shark = new Shark(speed, dir, size);
+            map[r - 1][c - 1] = shark;
         }
-
-        kingPos = 0;
-        while (kingPos != col+1) {
+        
+        kingPos = -1;
+        for (int i = 0; i < col; i++) {
             fishing();
             moveShark();
-            samePos();
         }
         System.out.println(score);
     }
