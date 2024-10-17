@@ -126,6 +126,7 @@ git commit -m "이름 / 날짜 / [플랫폼_문제이름_문제번호] / 실행�
 | 9주차 | 2024.09.26 ~ 2024.10.03 | 삼성 SW 역량테스트 대비 | 1.[BOJ 숨바꼭질 4](https://www.acmicpc.net/problem/13913)<br> 2. [BOJ 펠린드롬?](https://www.acmicpc.net/problem/10942)<br> 3. [BOJ 탑보기](https://www.acmicpc.net/problem/22866) |
 | 10주차 | 2024.10.03 ~ 2024.10.10 | 삼성 SW 역량테스트 대비 | 1.[BOJ 시험 감독](https://www.acmicpc.net/problem/13458)<br> 2. [BOJ 로봇 청소기](https://www.acmicpc.net/problem/14503)<br> 3. [BOJ 낚시왕](https://www.acmicpc.net/problem/17143) |
 | 11주차 | 2024.10.11 ~ 2024.10.17 | 삼성 SW 역량테스트 대비 | 1.[BOJ 2048 (Easy)](https://www.acmicpc.net/problem/12100)<br> 2. [BOJ 미확인 도착지](https://www.acmicpc.net/problem/9370)<br> 3. [BOJ 문자열 폭발](https://www.acmicpc.net/problem/9935) |
+| 12주차 | 2024.10.18 ~ 2024.10.24 | 삼성 SW 역량테스트 대비 | 1.[BOJ_⚾️](https://www.acmicpc.net/problem/17281)<br> 2. [BOJ 사다리 조작](https://www.acmicpc.net/problem/9370) <br> 3. [BOJ Z](https://www.acmicpc.net/problem/1074)| 
 
 ## 진행 상황
 
@@ -149,7 +150,7 @@ git commit -m "이름 / 날짜 / [플랫폼_문제이름_문제번호] / 실행�
 | week_08 | 09.19 ~ 09.26 |   ✅   |   ✅    |   ✅   |   ✅   |  ✅     |   ✅    |   ✅   |
 | week_09 | 09.26 ~ 10.03 |   ✅   |   ✅    |   ✅   |   ✅   |     🔺  |   ✅    |   ✅   |
 | week_10 | 10.03 ~ 10.10 |   ✅   |   ✅    |   ✅   |   ✅   |   ✅    |   ✅    |   ✅   |
-| week_11 | 10.10 ~ 10.17 |   ✅   |   ✅    |   ✅   |   ✅   |       |   ✅    |   ✅   |
+| week_11 | 10.10 ~ 10.17 |   ✅   |   ✅    |   ✅   |   ✅   |    ✅   |   ✅    |   ✅   |
 
 <br/>
 
