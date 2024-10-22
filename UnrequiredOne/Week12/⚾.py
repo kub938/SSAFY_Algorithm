@@ -19,16 +19,14 @@ for p in perm:
 
     score, out = 0, 0
     batter = 0
-    for arr_stage in arr:
+    for i in range(N):
         out = 0
         r1, r2, r3 = 0, 0, 0
-        while True:
+        arr_stage = arr[i]
+        while out < 3:
             hit = arr_stage[line_up[batter]]
             if hit == 0:
                 out += 1
-                if out == 3:
-                    batter = (batter + 1) % 9
-                    break
             elif hit == 1:
                 score += r3
                 r1, r2, r3 = 1, 1 if r1 else 0, 1 if r2 else 0
