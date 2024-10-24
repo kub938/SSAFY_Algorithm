@@ -43,7 +43,7 @@ for i in range(n):
 
 bfs()
 print(ans)
-
+ 
 
 
 
