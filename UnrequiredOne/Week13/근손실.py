@@ -1,9 +1,7 @@
 from itertools import permutations
-
 N, K = map(int, input().split())
 kits = list(map(int, input().split()))
 answer = 0
-
 for p in permutations(kits, N):
     weight = 500
     save_weight = True
@@ -14,5 +12,4 @@ for p in permutations(kits, N):
             break
     if save_weight:
         answer += 1
-
 print(answer)
