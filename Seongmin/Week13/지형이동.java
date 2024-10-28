@@ -3,6 +3,7 @@ import java.util.*;
 //모든 사다리를 돌면서 묶음이 다른 원소가 상하좌우에 있다면 간선리스트에 저장
 //최소신장트리(크루스칼)로 간선리스트를 연결한다.
 
+
 class Solution {
     int[][] color;
     int[][] graph;
