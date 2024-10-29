@@ -127,7 +127,7 @@ git commit -m "이름 / 날짜 / [플랫폼_문제이름_문제번호] / 실행�
 | 10주차 | 2024.10.03 ~ 2024.10.10 | 삼성 SW 역량테스트 대비 | 1.[BOJ 시험 감독](https://www.acmicpc.net/problem/13458)<br> 2. [BOJ 로봇 청소기](https://www.acmicpc.net/problem/14503)<br> 3. [BOJ 낚시왕](https://www.acmicpc.net/problem/17143) |
 | 11주차 | 2024.10.11 ~ 2024.10.17 | 삼성 SW 역량테스트 대비 | 1.[BOJ 2048 (Easy)](https://www.acmicpc.net/problem/12100)<br> 2. [BOJ 미확인 도착지](https://www.acmicpc.net/problem/9370)<br> 3. [BOJ 문자열 폭발](https://www.acmicpc.net/problem/9935) |
 | 12주차 | 2024.10.18 ~ 2024.10.24 | 삼성 SW 역량테스트 대비 | 1.[BOJ_⚾️](https://www.acmicpc.net/problem/17281)<br> 2. [BOJ 불!](https://www.acmicpc.net/problem/4179) <br> 3. [BOJ Z](https://www.acmicpc.net/problem/1074)| 
-
+| 13주차 | 2024.10.24 ~ 2024.10.31 | 삼성 SW 역량테스트 대비 | 1.[PGS_지형이동](https://school.programmers.co.kr/learn/courses/30/lessons/62050)<br> 2. [BOJ 근손실](https://www.acmicpc.net/problem/18429) <br> 3. [CT 정육면체 한번 더 굴리기](https://www.codetree.ai/training-field/frequent-problems/problems/cube-rounding-again/)| 
 ## 진행 상황
 
 | 진행 상황            | 표기  |
@@ -151,8 +151,8 @@ git commit -m "이름 / 날짜 / [플랫폼_문제이름_문제번호] / 실행�
 | week_09 | 09.26 ~ 10.03 |   ✅   |   ✅    |   ✅   |   ✅   |    🔺   |    ✅   |   ✅   |
 | week_10 | 10.03 ~ 10.10 |   ✅   |   ✅    |   ✅   |   ✅   |    ✅   |    ✅   |   ✅   |
 | week_11 | 10.10 ~ 10.17 |   ✅   |   ✅    |   ✅   |   ✅   |    ✅   |    ✅   |   ✅   |
-| week_12 | 10.18 ~ 10.25 |   ✅   |   ✅    |   ✅   |   ✅   |       |       |      |
-
+| week_12 | 10.18 ~ 10.24 |   ✅   |   ✅    |   ✅   |   ✅   |       |       |  ✅   |
+| week_13 | 10.24 ~ 10.31 |      |       |      |      |       |       |      |
 <br/>
 
 해당 README는 다음 레포지토리를 참고해서 제작하였습니다.
